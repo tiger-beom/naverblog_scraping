@@ -60,9 +60,10 @@ for post in posts:
 
     if blog_m:
         blog_text = text_scraping(delete_iframe(post_link))
+        print("<본문>")
         print(blog_text)
         
     else:
-        print("카페 및 포스트로 인한 확인 불가")
+        print("카페 및 포스트 : 확인 불가")
 
     print("-"*50)
